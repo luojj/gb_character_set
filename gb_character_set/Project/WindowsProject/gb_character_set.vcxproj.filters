@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{606669df-3dc9-464b-9dfb-99523ef754df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{0d5ee6e1-1364-43df-ad7a-28db69460712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Charset">
+      <UniqueIdentifier>{51b4b246-5861-4288-b879-df0362930b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Log">
+      <UniqueIdentifier>{3a3aa233-e667-4582-a425-3bd08110daca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\File">
+      <UniqueIdentifier>{536cb087-5698-45ec-a9c3-f863d8a376a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Memory">
+      <UniqueIdentifier>{f631c260-142d-4532-9b8c-c3bae7721475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Check">
+      <UniqueIdentifier>{bae0f733-e264-4903-b574-eaae0c90bf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Single">
+      <UniqueIdentifier>{0b20e60e-607c-4d82-9aec-c138fba63ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Chrono">
+      <UniqueIdentifier>{43dcfc25-8eca-4de1-a993-1eecd400f66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Utils">
+      <UniqueIdentifier>{876c975e-9b6a-48fb-835d-091befe6e4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Queue">
+      <UniqueIdentifier>{6c37107c-983a-49dd-a18c-661ae6385165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\TypeTraits">
+      <UniqueIdentifier>{a3e9621b-a656-45d3-966b-2d6edb272df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Test">
+      <UniqueIdentifier>{9ddd4da1-6c50-48e8-b0a3-11acf830ca2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Charset\Charset.cpp">
+      <Filter>Src\Charset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Log\Log.cpp">
+      <Filter>Src\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\File\FileSystem.cpp">
+      <Filter>Src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Memory\AutoFreeBuffer.cpp">
+      <Filter>Src\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Chrono\ChronoWrapper.cpp">
+      <Filter>Src\Chrono</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Utils\ByteOrderUtils.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Test\CharsetTest.cpp">
+      <Filter>Src\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Utils\StringUtils.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\CommonMacro.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\TypeDef.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Charset\Charset.h">
+      <Filter>Src\Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Charset\GB2312Table.h">
+      <Filter>Src\Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Charset\GB18030Table.h">
+      <Filter>Src\Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Charset\GBKTable.h">
+      <Filter>Src\Charset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Log\Log.h">
+      <Filter>Src\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Log\LogConfig.h">
+      <Filter>Src\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Log\LogExtend.h">
+      <Filter>Src\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Log\LogMacro.h">
+      <Filter>Src\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\File\FileSystem.h">
+      <Filter>Src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Memory\AutoFreeBuffer.h">
+      <Filter>Src\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Check\CheckMacro.h">
+      <Filter>Src\Check</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Single\Single.h">
+      <Filter>Src\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Chrono\ChronoWrapper.h">
+      <Filter>Src\Chrono</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Utils\ByteOrderUtils.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Queue\RecyclingObjectPool.h">
+      <Filter>Src\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Utils\SyncStreamUtils.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\TypeTraits\sfinae_is_xxx.h">
+      <Filter>Src\TypeTraits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Test\CharsetTest.h">
+      <Filter>Src\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Utils\StringUtils.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Src\Log\Log.inl">
+      <Filter>Src\Log</Filter>
+    </None>
+    <None Include="..\..\Src\Single\Single.inl">
+      <Filter>Src\Single</Filter>
+    </None>
+    <None Include="..\..\Src\Utils\ByteOrderUtils.inl">
+      <Filter>Src\Utils</Filter>
+    </None>
+    <None Include="..\..\Src\Queue\RecyclingObjectPool.inl">
+      <Filter>Src\Queue</Filter>
+    </None>
+    <None Include="..\..\Src\Utils\SyncStreamUtils.inl">
+      <Filter>Src\Utils</Filter>
+    </None>
+    <None Include="..\..\Src\Utils\StringUtils.inl">
+      <Filter>Src\Utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
