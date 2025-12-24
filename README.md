@@ -11,11 +11,11 @@
 > 
 > if (!std::get<0>(Result))
 > 
->   std::cout << "CharsetTrans Failed" << std::endl;
+>    std::cout << "CharsetTrans Failed" << std::endl;
 > 
 > else
 > 
->   strUTF8.append(&std::get<1>(Result)[0], std::get<1>(Result).size() - 1);
+>    strUTF8.append(&std::get<1>(Result)[0], std::get<1>(Result).size() - 1);
 > 
  
 
@@ -52,6 +52,7 @@
 Windows平台使用Visual Studio 2022编译。Linux使用Makefile编译。工程见“gb_character_set/Project/WindowsProject”和“gb_character_set/Project/LinuxProject”部分。
 
 ##### 4.为测试结果，在“iconv”下给出了GB2312，GBK，GB18030的所有编码，与libiconv做比较，发现iconv对于GBK有95个字符未能识别，这95个字符位于Unicode的PUA区域。
+
 
 
 
